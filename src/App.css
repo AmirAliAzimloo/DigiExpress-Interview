@@ -1,0 +1,130 @@
+/* Reset styles */
+* {
+  transition: all 0.3s;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arapix";
+  font-weight: 800;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  background-size: 200px;
+  background-repeat: repeat;
+  justify-content: center;
+}
+
+.mt {
+  margin-top: 12px;
+}
+
+.result {
+  display: flex;
+  padding: 16px 0;
+  border: 4px ridge #ffff0080;
+  background-color: #ffff0080;
+  width: 50%;
+  margin: 12px auto;
+  justify-content: center;
+}
+
+.logo {
+  background-color: lightgray;
+  width: 100%;
+  box-sizing: border-box;
+  align-self: center;
+  border: 4px ridge;
+}
+
+.container {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.drop-down {
+  position: relative;
+  z-index: 999;
+}
+
+.size {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 20px;
+  padding: 0 12px;
+}
+
+.color {
+  border: 4px outset lightgray;
+  background-color: lightgray;
+}
+
+.drop-down .input {
+  height: 36px;
+}
+
+.drop-down .active {
+  border-style: ridge;
+}
+
+.drop-down .list .item {
+  height: 32px;
+}
+
+.drop-down .list {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.drop-down .list .item:hover {
+  background-color: gray;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #99999969;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.option-image {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.option-center {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-bottom: 1px solid #999;
+}
