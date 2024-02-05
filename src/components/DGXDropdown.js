@@ -50,7 +50,7 @@ const DGXDropdown = ({ options, onSelect, placeHolder, renderOption }) => {
         )}
       </div>
       {/* overlay */}
-      <div className={`${isOpen ? "overlay" : ""}`} onClick={toggleDropdown} />
+      <div className={`${isOpen ? "overlay" : "hidden"}`} onClick={toggleDropdown} />
     </>
   );
 };
